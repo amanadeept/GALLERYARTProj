@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="@drawable/horse1"
+    tools:context=".Reviews">
+
+    <EditText
+        android:id="@+id/Review1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="writte your comments"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Reviewsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:textAllCaps="false"
+        android:backgroundTint="#7fffd4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7fffd4"
+        android:padding="2dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
+
